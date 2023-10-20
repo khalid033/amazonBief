@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    max-height: 3rem;
+    padding: 1rem 0rem;
+    
+}
+
+.span-center {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.logo{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navigation nav ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+.navigation nav ul img{
+    width: 40px;
+}
+.logosearch input{
+    width: 600px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+}
+
+.border {
+    border-right: 1px solid lightgrey;
+    padding-right: 0.6rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem 15rem;
+}
+
+.sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
